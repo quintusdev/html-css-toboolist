@@ -146,3 +146,23 @@ li .mobile {
     vertical-align: middle;
     margin-left: 10px;
 }
+
+li .web {
+    background-color: rgb(195, 66, 221);
+    color: #fff;
+    border: 5px solid rgb(195, 66, 221);
+    border-radius: 10px;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+li .sale {
+    background-color: rgb(171, 255, 137);
+    color: #fff;
+    border: 5px solid rgb(171, 255, 137);
+    border-radius: 10px;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
