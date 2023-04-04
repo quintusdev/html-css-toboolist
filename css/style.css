@@ -80,12 +80,13 @@ li {
     padding: 5px;
 }
 
+/* CLASSI CHECK ERROR*/
 li .check{
     color: green;
-    padding: 3px;
-    font-size: 10px;
+    padding: 6px;
+    font-size: 12px;
     font-weight: 700;
-    border: 2px solid green;
+    border: 1px solid green;
     border-radius: 50%;
     vertical-align: middle;
 }
@@ -93,15 +94,16 @@ li .check{
 
 li .error{
     color: red;
-    padding: 3px;
-    font-size: 10px;
+    padding: 6px;
+    font-size: 12px;
     font-weight: 700;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 50%;
     vertical-align: middle;
 }
 
-.list1{
+/* formattazione liste e categorie*/
+.list{
     padding: 20px;
 }
 
@@ -112,4 +114,35 @@ li .editorial {
     border-radius: 10px;
     font-size: 10px;
     vertical-align: middle;
+    margin-left: 10px;
+}
+
+li .q1goals {
+    background-color: rgb(143, 46, 253);
+    color: #fff;
+    border: 5px solid rgb(143, 46, 253);
+    border-radius: 10px;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+li .recruiting {
+    background-color: rgb(49, 192, 92);
+    color: #fff;
+    border: 5px solid rgb(49, 192, 92);
+    border-radius: 10px;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+li .mobile {
+    background-color: rgb(250, 160, 25);
+    color: #fff;
+    border: 5px solid rgb(250, 160, 25);
+    border-radius: 10px;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
