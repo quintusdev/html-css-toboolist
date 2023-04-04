@@ -83,10 +83,11 @@ li {
 /* CLASSI CHECK ERROR*/
 li .check{
     color: green;
-    padding: 6px;
-    font-size: 12px;
+    padding: 2px;
+    margin-right: 10px;
+    font-size: 10px;
     font-weight: 700;
-    border: 1px solid green;
+    border: 2px solid green;
     border-radius: 50%;
     vertical-align: middle;
 }
@@ -94,10 +95,11 @@ li .check{
 
 li .error{
     color: red;
-    padding: 6px;
-    font-size: 12px;
+    padding: 2px;
+    font-size: 10px;
+    margin-right: 10px;
     font-weight: 700;
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 50%;
     vertical-align: middle;
 }
