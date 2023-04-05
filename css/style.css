@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     background-color: rgb(202, 202, 202);
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER */
@@ -28,8 +30,8 @@ h1 {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    font-size: 50px;
-    font-weight: bolder;
+    font-size: 55px;
+    font-weight: 700;
 }
 
 /* FINE HEADER */
@@ -82,29 +84,26 @@ li {
 }
 
 /* CLASSI CHECK ERROR*/
-li .check{
+.circle{
+    padding: 3px 5px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.circle.check{
     color: green;
-    padding: 2px;
-    margin-right: 10px;
-    font-size: 10px;
-    font-weight: 700;
     border: 2px solid green;
-    border-radius: 50%;
-    vertical-align: middle;
 }
 
 
-li .error{
+.circle.error{
     color: red;
-    padding: 2px;
-    font-size: 10px;
-    margin-right: 10px;
-    font-weight: 700;
     border: 2px solid red;
-    border-radius: 50%;
-    vertical-align: middle;
 }
-
+                                   
 /* formattazione liste e categorie*/
 .list{
     padding: 20px;
